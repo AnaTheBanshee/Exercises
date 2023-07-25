@@ -4,7 +4,7 @@ def rec_fibonacci(n):
    if n <= 1:
        return n
    else:
-       return(rec_fibonacci(n-1) + rec_fibonacci(n-2))
+       return(rec_fibonacci(n-1) + rec_fibonacci(n-2)) #recursive function/calling on itself
 
 """ Fibonacci: n1 = 0;
                n2 = 1;
